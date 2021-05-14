@@ -706,6 +706,8 @@ p span{
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    display: flex;
+    justify-content: space-between
 }
 
 h2 {
@@ -759,6 +761,7 @@ h4 {
 .black-background {
     background-color: rgba(165, 147, 99, 0.7);
     padding: 40px 40px 40px 40px;
+    border-radius: 25px;
 }
 
 .bold-link {
@@ -780,11 +783,13 @@ h4 {
 
 .tc-white {
     color: #F3B390!important;
-    background-color: #0A0D15;
+    background-color: #1f232f87;
+    padding: 1rem;
+    border-radius: 25px;
 }
 
 .btn-atomic-tangerine {
-    background: #F3B390;
+    background: #f3b39085;
     color: black!important;
 }
 
@@ -827,7 +832,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
